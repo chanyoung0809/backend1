@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  background-color: #FCC;
+}
+
+a {
+  text-decoration: none;
+  color: #C00;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인페이지</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- public 경로 쓰면 에러. -->
+</head>
+<body>
+    <%- include("header") %> <!--ejs 태그 문법. 컴포넌트처럼 사용 가능-->
+    <!-- header를 index.ejs에 포함시키다 import-->
+    <img src="img/bear.jpg">
+    <img src="img/duck.jpg">
+    <img src="img/rabbit.jpg">
+    <%- include("footer") %>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/bg.js"></script>
+</body>
+</html>
